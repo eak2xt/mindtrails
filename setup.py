@@ -7,5 +7,5 @@ setup(name='mindtrails',
       author='Diheng Zhang',
       author_email='dzhang@virginia.edu`',
       license='MIT',
-      packages=['exporter'],
+      packages=['mindtrails'],
       zip_safe=False)
