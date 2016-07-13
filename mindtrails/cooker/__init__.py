@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 from helloworld import sayHello
-from scales import __all__
 import com
+import scales
