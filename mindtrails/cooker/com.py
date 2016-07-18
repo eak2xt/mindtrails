@@ -26,5 +26,5 @@ def combine(scaleList,path):
                 temp_dataset = pd.read_csv(path+'/'+files)
                 dataset = pd.concat([dataset,temp_dataset],ignore_index=True)
                 print dataset
-        dataset.to_csv(path+'/master/'+scaleList+datetime.datetime.now().strftime("%Y-%m-%d")+'_master.csv')
+        dataset.to_csv(path+'/master/'+scaleList+'_'+datetime.datetime.now().strftime("%Y-%m-%d")+'_master.csv')
         return dataset
